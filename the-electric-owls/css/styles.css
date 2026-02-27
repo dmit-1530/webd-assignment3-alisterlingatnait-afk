@@ -1,0 +1,163 @@
+/* ***************** utilities & containers ***************** */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+/* ***************** global typography ***************** */
+h1 {
+    font-size: 2.0625rem;
+    color: #fff;
+    margin-bottom: 0.6875rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.375rem;
+}
+
+h3 {
+    font-size: 1.4375rem;
+    margin-bottom: 1.375rem;
+}
+
+p {
+    margin-bottom: 1.375rem;
+}
+
+/* ***************** header ***************** */
+header {
+    background-color: #57534E;
+    padding: 1.375rem 0 0.6875rem 0;
+    margin-bottom: 2.75rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 0.6875rem;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ***************** main content ***************** */
+section {
+    margin-bottom: 5.5rem;
+}
+
+section img {
+    margin-bottom: 1.375rem;
+}
+
+section ol {
+    margin-bottom: 2.75rem;
+}
+
+ol li {
+    margin-bottom: 0.6875rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background-color: #A4DD00;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #98CD00;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2.75rem;
+}
+
+table thead {
+    text-align: left;
+}
+
+thead th {
+    padding-bottom: 0.6875rem;
+}
+
+table th, 
+table td {
+    width: 50%;
+}
+
+tbody td {
+    padding: 0.3125rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E7E5E4;
+}
+
+aside {
+    background-color: #F5F5F4;
+    padding: 2.75rem 0 4.125rem 0;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+}
+
+form input[id="email"] {
+    width: 100%;
+    padding: 0 0.625rem;
+    line-height: 3.4375rem;
+    border: 1px solid #A8A29E;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6875rem;
+}
+
+form .btn {
+    cursor: pointer;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #57534E;
+}
+
+form .btn:hover {
+    background-color: #57534E;
+    color: #fff;
+}
+
+
+/* ***************** footer ***************** */
+footer {
+    background-color: #57534E;
+    color: #fff;
+    padding: 4.125rem 0;
+}
+
+/* ***************** Add media query for the 588px screen ***************** */
+
+/* ***************** footer ***************** */
+
+/* ***************** footer ***************** */
